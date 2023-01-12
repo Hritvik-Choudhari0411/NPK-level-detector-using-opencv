@@ -14,9 +14,9 @@ Download and install the required libraries for the python file by running the f
 
 ```
 pip install numpy
-pip install sklearn
 pip install pandas
 pip install os
+pip install cv2
 pip install matplotlib
 pip install pytesseract
 ```
