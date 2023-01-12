@@ -37,6 +37,11 @@ while(cap.isOpened()):
 cap.release()
 cv2.destroyAllWindows()
 ```
+- Image Frame
+<p align="left">
+<img src="https://github.com/Hritvik-Choudhari0411/NPK-level-monitoring-system-using-opencv/blob/main/Images/frame2670.jpg" width="870" height="370" />
+</p>
+
 ## Function to extract coordinates of ROI from an image frame:
 ```sh
 scale= 0.5
@@ -119,4 +124,17 @@ for i in frames:
         print('STOP!, Threshold value crossed.')
         break
 ```
+- Original ROI image
+<p align="left">
+<img src="https://github.com/Hritvik-Choudhari0411/NPK-level-monitoring-system-using-opencv/blob/main/Images/original.png" width="170" height="70" />
+</p>
+
+- Processed ROI image
+<p align="left">
+<img src="https://github.com/Hritvik-Choudhari0411/NPK-level-monitoring-system-using-opencv/blob/main/Images/thresholded.png" width="170" height="70" />
+</p>
+
 ## Plots:
+<p align="left">
+<img src="https://github.com/Hritvik-Choudhari0411/NPK-level-monitoring-system-using-opencv/blob/main/Images/Screenshot%202023-01-08%20191219.png" width="870" height="370" />
+</p>
